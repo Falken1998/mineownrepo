@@ -1,0 +1,58 @@
+Tower Defense
+-------------
+
+- Come to CodeCamp and build the best Tower Defense you can.
+
+Basic activities
+- Download and unpack the starter kit.
+- Run the game from tower_game.py.
+- Configure the list of available tower types,
+  located in tower_configuration.py.
+- Configure the tower colors in tower_configuration.py.
+- Configure the baddie spawn rate in tower_configuration.py.
+
+Map activities
+- The game loads the file map1.txt.  If you create
+  a new map, then you need to rename it to map1.txt.
+- The map is a text file, you can just edit a copy
+  of the file to create a new one.
+- Or, you can create a map with the map_editor program.
+  It reads the file map1.txt as input.  If you save,
+  it will create a new file named map2.txt.
+
+  Control-c will clear the map.
+  Control-s will save the map to map2.txt.
+
+  The middle or right mouse buttons will clear a map
+  location.
+
+  The left mouse button will set a map location to be
+  a part of the path.  Paths have direction to steer
+  the Baddies.  Be sure to hold down the arrow keys
+  while drawing the path.  The start of a path must be
+  at an edge of the map.  The end of a path must be
+  at an edge of the map.
+
+Drawing activities
+- Rewrite the tower drawing to draw more interesting
+  shapes, or images.
+- Rewrite the Baddie drawing code to draw more interesting
+  shapes, or images.
+- Rewrite the Bullet drawing code to draw more interesting
+  shapes, or images.
+- Rewrite the Path drawing code to draw more interesting
+  shapes, or images.
+
+Sound activities
+- Record or find your own sounds.  Replace the sounds that
+  are used for explosions.
+- Add sounds for other events, such as baddies escaping.
+  
+More advanced activities
+- Add a score to the Tower Data, and display the score.
+- Charge score points for buying new towers.
+- End the game after too many baddies escape
+- Add levels
+- Create a BaddieType class (similar to TowerType) that can
+  be used to configure the different types of Baddies.
+  Modify spawnBaddies() to use a plan of different types.
